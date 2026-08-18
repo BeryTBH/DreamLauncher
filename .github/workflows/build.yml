@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    name: Build APK
+    name: Build DreamLauncher
     runs-on: ubuntu-latest
 
     steps:
@@ -22,15 +22,32 @@ jobs:
           java-version: '17'
           cache: gradle
 
+      - name: Set up Android SDK
+        uses: android-actions/setup-android@v3
+
       - name: Make Gradle executable
         working-directory: Launcher
         run: chmod +x gradlew
+
+      - name: Generate signing key
+        run: |
+          keytool -genkeypair \
+            -v \
+            -keystore "$RUNNER_TEMP/dreamlauncher.jks" \
+            -alias dreamlauncher \
+            -keyalg RSA \
+            -keysize 2048 \
+            -validity 10000 \
+            -storepass dreamlauncher \
+            -keypass dreamlauncher \
+            -dname "CN=DreamLauncher, OU=DreamLauncher, O=DreamLauncher, L=Unknown, ST=Unknown, C=US"
 
       - name: Build release APK
         working-directory: Launcher
         run: ./gradlew :App:assembleRelease
 
-      - name: Rename APK
+      - name: Find APK
+        id: apk
         working-directory: Launcher
         run: |
           APK=$(find App/build/outputs/apk -type f -name "*.apk" | head -n 1)
@@ -40,7 +57,26 @@ jobs:
             exit 1
           fi
 
-          cp "$APK" "$GITHUB_WORKSPACE/DreamLauncher.apk"
+          echo "apk=$APK" >> "$GITHUB_OUTPUT"
+
+      - name: Sign APK
+        env:
+          KEYSTORE: ${{ runner.temp }}/dreamlauncher.jks
+        run: |
+          APKSIGNER="$ANDROID_HOME/build-tools/$(ls "$ANDROID_HOME/build-tools" | sort -V | tail -n 1)/apksigner"
+
+          "$APKSIGNER" sign \
+            --ks "$KEYSTORE" \
+            --ks-pass pass:dreamlauncher \
+            --ks-key-alias dreamlauncher \
+            --key-pass pass:dreamlauncher \
+            --out "$GITHUB_WORKSPACE/DreamLauncher.apk" \
+            "Launcher/${{ steps.apk.outputs.apk }}"
+
+      - name: Verify APK
+        run: |
+          APKSIGNER="$ANDROID_HOME/build-tools/$(ls "$ANDROID_HOME/build-tools" | sort -V | tail -n 1)/apksigner"
+          "$APKSIGNER" verify --verbose DreamLauncher.apk
 
       - name: Upload DreamLauncher.apk
         uses: actions/upload-artifact@v4
