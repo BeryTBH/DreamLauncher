@@ -17,7 +17,7 @@
     <string name="platform_visibility">平台可見性</string>
     <string name="disable_explore_app">停用探索應用程式</string>
     <string name="enable_redirect_service">啟用重新導向服務</string>
-    <string name="enable_dreamgrid_and_replace_explore_instructions">使用下列設定來啟用 DreamGrid 的可存取服務，並替換您碼頭上的「探索」應用程式。</string>
+    <string name="enable_dreamgrid_and_replace_explore_instructions">使用下列設定來啟用 DreamLauncher 的可存取服務，並替換您碼頭上的「探索」應用程式。</string>
     <string name="settings">設定</string>
     <string name="toggle_edit_mode">切換編輯模式</string>
 </resources>

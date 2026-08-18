@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">DreamGrid</string>
+    <string name="app_name">DreamLauncher</string>
     <string name="default_apps_group">应用程序</string>
     <string name="add_group">添加组</string>
     <string name="delete_group">删除组</string>
@@ -17,7 +17,7 @@
     <string name="platform_visibility">平台可见性</string>
     <string name="disable_explore_app">禁用探索应用</string>
     <string name="enable_redirect_service">启用重定向服务</string>
-    <string name="enable_dreamgrid_and_replace_explore_instructions">使用以下设置启用DreamGrid的可访问性服务，并替换您码头上的"探索"应用。</string>
+    <string name="enable_dreamgrid_and_replace_explore_instructions">使用以下设置启用DreamLauncher的可访问性服务，并替换您码头上的"探索"应用。</string>
     <string name="settings">设置</string>
     <string name="toggle_edit_mode">切换编辑模式</string>
 </resources>

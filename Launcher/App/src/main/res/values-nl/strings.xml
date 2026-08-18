@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">DreamGrid</string>
+    <string name="app_name">DreamLauncher</string>
     <string name="default_apps_group">Apps</string>
     <string name="add_group">Groep toevoegen</string>
     <string name="delete_group">Groep verwijderen</string>
@@ -17,7 +17,7 @@
     <string name="platform_visibility">Platform Zichtbaarheid</string>
     <string name="disable_explore_app">Verkenner-app uitschakelen</string>
     <string name="enable_redirect_service">Doorstuur service inschakelen</string>
-    <string name="enable_dreamgrid_and_replace_explore_instructions">Gebruik de onderstaande instellingen om de toegankelijkheidsservice van DreamGrid in te schakelen en vervang de "Verkenner"-app in je dock.</string>
+    <string name="enable_dreamgrid_and_replace_explore_instructions">Gebruik de onderstaande instellingen om de toegankelijkheidsservice van DreamLauncher in te schakelen en vervang de "Verkenner"-app in je dock.</string>
     <string name="settings">Instellingen</string>
     <string name="toggle_edit_mode">Omschakelen naar bewerkmodus</string>
 </resources>

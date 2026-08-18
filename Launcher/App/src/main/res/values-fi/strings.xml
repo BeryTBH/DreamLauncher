@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">DreamGrid</string>
+    <string name="app_name">DreamLauncher</string>
     <string name="default_apps_group">Sovellukset</string>
     <string name="add_group">Lisää ryhmä</string>
     <string name="delete_group">Poista ryhmä</string>
@@ -17,7 +17,7 @@
     <string name="platform_visibility">Alustan näkyvyys</string>
     <string name="disable_explore_app">Poista Tutki-sovellus käytöstä</string>
     <string name="enable_redirect_service">Ota uudelleenohjauspalvelu käyttöön</string>
-    <string name="enable_dreamgrid_and_replace_explore_instructions">Käytä alla olevia asetuksia ottaaksesi DreamGridin saavutettavuuspalvelun käyttöön ja korvataksesi \"Tutki\"-sovelluksen telakassasi.</string>
+    <string name="enable_dreamgrid_and_replace_explore_instructions">Käytä alla olevia asetuksia ottaaksesi DreamLauncherin saavutettavuuspalvelun käyttöön ja korvataksesi \"Tutki\"-sovelluksen telakassasi.</string>
     <string name="settings">Asetukset</string>
     <string name="toggle_edit_mode">Vaihda muokkaustilaan</string>
 </resources>

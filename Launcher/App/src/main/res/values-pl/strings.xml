@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">DreamGrid</string>
+    <string name="app_name">DreamLauncher</string>
     <string name="default_apps_group">Aplikacje</string>
     <string name="add_group">Dodaj grupę</string>
     <string name="delete_group">Usuń grupę</string>
@@ -17,7 +17,7 @@
     <string name="platform_visibility">Widoczność Platformy</string>
     <string name="disable_explore_app">Wyłącz Aplikację Eksploruj</string>
     <string name="enable_redirect_service">Włącz Usługę Przekierowania</string>
-    <string name="enable_dreamgrid_and_replace_explore_instructions">Użyj poniższych ustawień, aby włączyć usługę dostępności DreamGrid i zastąpić aplikację "Eksploruj" w dok.</string>
+    <string name="enable_dreamgrid_and_replace_explore_instructions">Użyj poniższych ustawień, aby włączyć usługę dostępności DreamLauncher i zastąpić aplikację "Eksploruj" w dok.</string>
     <string name="settings">Ustawienia</string>
     <string name="toggle_edit_mode">Przełącz do trybu edycji</string>
 </resources>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">DreamGrid</string>
+    <string name="app_name">DreamLauncher</string>
     <string name="default_apps_group">Uygulamalar</string>
     <string name="add_group">Grup ekle</string>
     <string name="delete_group">Grup sil</string>
@@ -17,7 +17,7 @@
     <string name="platform_visibility">Platform Görünürlüğü</string>
     <string name="disable_explore_app">Keşfet Uygulamasını Devre Dışı Bırak</string>
     <string name="enable_redirect_service">Yönlendirme Hizmetini Etkinleştir</string>
-    <string name="enable_dreamgrid_and_replace_explore_instructions">Aşağıdaki ayarları kullanarak DreamGrid\'in erişilebilirlik hizmetini etkinleştirin ve "Keşfet" uygulamasını dock\'taki uygulama ile değiştirin.</string>
+    <string name="enable_dreamgrid_and_replace_explore_instructions">Aşağıdaki ayarları kullanarak DreamLauncher\'in erişilebilirlik hizmetini etkinleştirin ve "Keşfet" uygulamasını dock\'taki uygulama ile değiştirin.</string>
     <string name="settings">Ayarlar</string>
     <string name="toggle_edit_mode">Düzenleme Modunu Değiştir</string>
 </resources>

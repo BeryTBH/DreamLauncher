@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">DreamGrid</string>
+    <string name="app_name">DreamLauncher</string>
     <string name="default_apps_group">Aplicații</string>
     <string name="add_group">Adaugă grup</string>
     <string name="delete_group">Șterge grup</string>
@@ -17,7 +17,7 @@
     <string name="platform_visibility">Vizibilitate Platformă</string>
     <string name="disable_explore_app">Dezactivează Aplicația Explore</string>
     <string name="enable_redirect_service">Activează Serviciul de Redirecționare</string>
-    <string name="enable_dreamgrid_and_replace_explore_instructions">Folosiți setările de mai jos pentru a activa serviciul de accesibilitate DreamGrid și pentru a înlocui aplicația "Explore" de pe docul dvs.</string>
+    <string name="enable_dreamgrid_and_replace_explore_instructions">Folosiți setările de mai jos pentru a activa serviciul de accesibilitate DreamLauncher și pentru a înlocui aplicația "Explore" de pe docul dvs.</string>
     <string name="settings">Setări</string>
     <string name="toggle_edit_mode">Comută Modul de Editare</string>
 </resources>

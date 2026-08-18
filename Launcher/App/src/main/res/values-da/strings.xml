@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">DreamGrid</string>
+    <string name="app_name">DreamLauncher</string>
     <string name="default_apps_group">Apps</string>
     <string name="add_group">Tilføj gruppe</string>
     <string name="delete_group">Slet gruppe</string>
@@ -17,7 +17,7 @@
     <string name="platform_visibility">Platform synlighed</string>
     <string name="disable_explore_app">Deaktiver Udforsk-appen</string>
     <string name="enable_redirect_service">Aktivér omadresseringstjeneste</string>
-    <string name="enable_dreamgrid_and_replace_explore_instructions">Brug nedenstående indstillinger for at aktivere DreamGrid\'s tilgængelighedsservice og erstat \"Udforsk\"-appen på din dock.</string>
+    <string name="enable_dreamgrid_and_replace_explore_instructions">Brug nedenstående indstillinger for at aktivere DreamLauncher\'s tilgængelighedsservice og erstat \"Udforsk\"-appen på din dock.</string>
     <string name="settings">Indstillinger</string>
     <string name="toggle_edit_mode">Slå redigeringstilstand til/fra</string>
 </resources>

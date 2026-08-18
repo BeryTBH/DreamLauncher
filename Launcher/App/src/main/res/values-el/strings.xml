@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">DreamGrid</string>
+    <string name="app_name">DreamLauncher</string>
     <string name="default_apps_group">Εφαρμογές</string>
     <string name="add_group">Προσθήκη ομάδας</string>
     <string name="delete_group">Διαγραφή ομάδας</string>
@@ -17,7 +17,7 @@
     <string name="platform_visibility">Ορατότητα πλατφόρμας</string>
     <string name="disable_explore_app">Απενεργοποίηση της εφαρμογής Εξερεύνηση</string>
     <string name="enable_redirect_service">Ενεργοποίηση υπηρεσίας ανακατεύθυνσης</string>
-    <string name="enable_dreamgrid_and_replace_explore_instructions">Χρησιμοποιήστε τις παρακάτω ρυθμίσεις για να ενεργοποιήσετε την υπηρεσία προσβασιμότητας του DreamGrid και να αντικαταστήσετε την εφαρμογή \"Εξερεύνηση\" στον προβολέα σας.</string>
+    <string name="enable_dreamgrid_and_replace_explore_instructions">Χρησιμοποιήστε τις παρακάτω ρυθμίσεις για να ενεργοποιήσετε την υπηρεσία προσβασιμότητας του DreamLauncher και να αντικαταστήσετε την εφαρμογή \"Εξερεύνηση\" στον προβολέα σας.</string>
     <string name="settings">Ρυθμίσεις</string>
     <string name="toggle_edit_mode">Εναλλαγή λειτουργίας επεξεργασίας</string>
 </resources>

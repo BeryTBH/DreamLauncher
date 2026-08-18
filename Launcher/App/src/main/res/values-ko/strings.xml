@@ -17,7 +17,7 @@
     <string name="platform_visibility">플랫폼 가시성</string>
     <string name="disable_explore_app">탐색기 앱 비활성화</string>
     <string name="enable_redirect_service">리디렉션 서비스 활성화</string>
-    <string name="enable_dreamgrid_and_replace_explore_instructions">아래 설정을 사용하여 DreamGrid 액세스 가능성 서비스를 활성화하고 독의 \"탐색기\" 앱을 교체합니다.</string>
+    <string name="enable_dreamgrid_and_replace_explore_instructions">아래 설정을 사용하여 DreamLauncher 액세스 가능성 서비스를 활성화하고 독의 \"탐색기\" 앱을 교체합니다.</string>
     <string name="settings">설정</string>
     <string name="toggle_edit_mode">편집 모드로 전환</string>
 </resources>

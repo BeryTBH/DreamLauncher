@@ -1,13 +1,8 @@
-# DreamGrid
+# DreamLauncher
 
-> [!WARNING]  
-> DreamGrid isn't mantained anymore. This repository will continue to exist only for archival purposes. I recommend using the much faster [LightningLauncher](https://github.com/threethan/LightningLauncher) as an alternative
-
-DreamGrid is a launcher designed for Oculus Quest, Pico VR and HTC headsets that supports both official and sideloaded apps and games.
+DreamLauncher is a launcher forked from [DreamGrid](https://github.com/ptrpaws/DreamGrid) designed for Meta Quest headsets.
 
 ## Features
-
-DreamGrid is an enhanced version of the original [PiLauncher](https://github.com/lvonasek/QuestPiLauncher), offering the following improvements:
 
 - Modern design
 - Update detector
@@ -25,14 +20,7 @@ DreamGrid is an enhanced version of the original [PiLauncher](https://github.com
 
 ## Releases
 
-Find the latest releases of DreamGrid [here](https://github.com/basti564/DreamGrid/releases).
-
-## Screenshot
-![screenshot](https://github.com/basti564/DreamGrid/assets/34898868/d3945a1c-9250-4f3b-9f99-f8d29a24c727)
-
-## Similar Projects
-
-Also check out [PiLauncherNext](https://github.com/Veticia/PiLauncherNext), a more true to the original fork of PiLauncher.
+Find the latest releases of DreamLauncher [here](https://github.com/BeryTBH/DreamLauncher/releases).
 
 ## TO:DO
 
@@ -55,4 +43,4 @@ To compile the launcher, follow these steps:
 2. Make sure USB debugging is enabled on your headset.
 3. Click the play button in Android Studio.
 
-That's it! Enjoy gaming with DreamGrid!
+That's it! Enjoy gaming with DreamLauncher!

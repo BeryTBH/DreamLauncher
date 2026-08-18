@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">DreamGrid</string>
+    <string name="app_name">DreamLauncher</string>
     <string name="default_apps_group">Aplikasi</string>
     <string name="add_group">Tambah kumpulan</string>
     <string name="delete_group">Padam kumpulan</string>
@@ -17,7 +17,7 @@
     <string name="platform_visibility">Keterlihatan Platform</string>
     <string name="disable_explore_app">Nyahaktifkan Aplikasi Explorer</string>
     <string name="enable_redirect_service">Aktifkan Perkhidmatan Pengalihan</string>
-    <string name="enable_dreamgrid_and_replace_explore_instructions">Gunakan tetapan di bawah untuk mengaktifkan perkhidmatan aksesibiliti DreamGrid dan gantikan aplikasi "Explorer" di dok anda.</string>
+    <string name="enable_dreamgrid_and_replace_explore_instructions">Gunakan tetapan di bawah untuk mengaktifkan perkhidmatan aksesibiliti DreamLauncher dan gantikan aplikasi "Explorer" di dok anda.</string>
     <string name="settings">Tetapan</string>
     <string name="toggle_edit_mode">Tukar ke Mod Penyuntingan</string>
 </resources>

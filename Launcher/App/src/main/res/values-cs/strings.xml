@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">DreamGrid</string>
+    <string name="app_name">DreamLauncher</string>
     <string name="default_apps_group">Aplikace</string>
     <string name="add_group">Přidat skupinu</string>
     <string name="delete_group">Smazat skupinu</string>
@@ -17,7 +17,7 @@
     <string name="platform_visibility">Viditelnost platformy</string>
     <string name="disable_explore_app">Zakázat aplikaci Průzkumník</string>
     <string name="enable_redirect_service">Povolit přesměrovací službu</string>
-    <string name="enable_dreamgrid_and_replace_explore_instructions">Použijte níže uvedená nastavení pro aktivaci služby přístupnosti DreamGrid a nahraďte aplikaci \"Průzkumník\" ve vaší dokovací stanici.</string>
+    <string name="enable_dreamgrid_and_replace_explore_instructions">Použijte níže uvedená nastavení pro aktivaci služby přístupnosti DreamLauncher a nahraďte aplikaci \"Průzkumník\" ve vaší dokovací stanici.</string>
     <string name="settings">Nastavení</string>
     <string name="toggle_edit_mode">Přepnout režim úprav</string>
 </resources>

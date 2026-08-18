@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">DreamGrid</string>
+    <string name="app_name">DreamLauncher</string>
     <string name="default_apps_group">Приложения</string>
     <string name="add_group">Добавить группу</string>
     <string name="delete_group">Удалить группу</string>
@@ -17,7 +17,7 @@
     <string name="platform_visibility">Видимость Платформы</string>
     <string name="disable_explore_app">Отключить Приложение Исследовать</string>
     <string name="enable_redirect_service">Включить Службу Переадресации</string>
-    <string name="enable_dreamgrid_and_replace_explore_instructions">Используйте следующие настройки для включения сервиса доступности DreamGrid и замены приложения "Исследовать" на вашей панели.</string>
+    <string name="enable_dreamgrid_and_replace_explore_instructions">Используйте следующие настройки для включения сервиса доступности DreamLauncher и замены приложения "Исследовать" на вашей панели.</string>
     <string name="settings">Настройки</string>
     <string name="toggle_edit_mode">Переключить Режим Редактирования</string>
 </resources>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">DreamGrid</string>
+    <string name="app_name">DreamLauncher</string>
     <string name="default_apps_group">Appar</string>
     <string name="add_group">Lägg till grupp</string>
     <string name="delete_group">Radera grupp</string>
@@ -17,7 +17,7 @@
     <string name="platform_visibility">Plattform Synlighet</string>
     <string name="disable_explore_app">Inaktivera Utforska-appen</string>
     <string name="enable_redirect_service">Aktivera Omdirigeringstjänst</string>
-    <string name="enable_dreamgrid_and_replace_explore_instructions">Använd inställningarna nedan för att aktivera DreamGrids tillgänglighetstjänst och ersätt "Utforska"-appen på din docka.</string>
+    <string name="enable_dreamgrid_and_replace_explore_instructions">Använd inställningarna nedan för att aktivera DreamLaunchers tillgänglighetstjänst och ersätt "Utforska"-appen på din docka.</string>
     <string name="settings">Inställningar</string>
     <string name="toggle_edit_mode">Växla Redigeringsläge</string>
 </resources>

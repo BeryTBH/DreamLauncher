@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">DreamGrid</string>
+    <string name="app_name">DreamLauncher</string>
     <string name="default_apps_group">Aplicativos</string>
     <string name="add_group">Adicionar grupo</string>
     <string name="delete_group">Excluir grupo</string>
@@ -17,7 +17,7 @@
     <string name="platform_visibility">Visibilidade da Plataforma</string>
     <string name="disable_explore_app">Desativar o aplicativo Explorar</string>
     <string name="enable_redirect_service">Habilitar serviço de redirecionamento</string>
-    <string name="enable_dreamgrid_and_replace_explore_instructions">Use as configurações abaixo para ativar o serviço de acessibilidade do DreamGrid e substituir o aplicativo "Explorar" na sua dock.</string>
+    <string name="enable_dreamgrid_and_replace_explore_instructions">Use as configurações abaixo para ativar o serviço de acessibilidade do DreamLauncher e substituir o aplicativo "Explorar" na sua dock.</string>
     <string name="settings">Configurações</string>
     <string name="toggle_edit_mode">Alternar para o modo de edição</string>
 </resources>

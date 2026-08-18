@@ -20,9 +20,9 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 public class UpdateDetector {
-    private static final String UPDATE_URL = "https://api.github.com/repos/basti564/DreamGrid/releases/latest";
+    private static final String UPDATE_URL = "https://api.github.com/repos/BeryTBH/DreamLauncher/releases/latest";
     private static final String LAST_UPDATE_CHECK_TIME_KEY = "lastUpdateCheckTime";
-    private static final String TAG = "DreamGrid";
+    private static final String TAG = "DreamLauncher";
 
     private final RequestQueue requestQueue;
     private final PackageManager packageManager;
@@ -69,7 +69,7 @@ public class UpdateDetector {
                 Log.v(TAG, "New version available!!!!");
                 showUpdateDialog(latestReleaseJson, tagName);
             } else {
-                Log.i(TAG, "DreamGrid is up to date :)");
+                Log.i(TAG, "DreamLauncher is up to date :)");
             }
         } catch (JSONException e) {
             Log.e(TAG, "Received invalid JSON", e);
@@ -85,7 +85,7 @@ public class UpdateDetector {
     private void showUpdateDialog(JSONObject latestReleaseJson, String tagName) {
         AlertDialog.Builder updateDialogBuilder = new AlertDialog.Builder(appContext);
         updateDialogBuilder.setTitle("An update is available!");
-        updateDialogBuilder.setMessage("We recommend you to update to the latest version of DreamGrid (" +
+        updateDialogBuilder.setMessage("We recommend you to update to the latest version of DreamLauncher (" +
                 tagName + ")");
         updateDialogBuilder.setPositiveButton("View", (dialog, which) -> {
             try {
